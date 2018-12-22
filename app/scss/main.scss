@@ -130,9 +130,22 @@ body {
 		width: 174px;
 		margin: 0 auto;
 		align-self: center;
+
+		&-h1 {
+			font-size: 16px;
+			text-transform: uppercase;
+			font-weight: 700;
+			padding: 24px 0;
+		}
+
+		&-desc {
+			font-size: 10px;
+		}
 	}
 
-	
+	& img {
+		margin: 10px;
+	}
 }
 
 .foto {
