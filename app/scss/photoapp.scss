@@ -1,0 +1,50 @@
+#photoapp {
+	background: #f5f6f7;
+}
+
+.photoapp {
+	display: flex;
+	flex-wrap: wrap;
+
+	&__text {
+		width: 435px;
+		text-align: left;
+		margin: auto;
+		display: flex;
+    	flex-direction: column;
+
+		& a {
+			font-size: 12px;
+		    text-decoration: none;
+		    color: #fff;
+		    text-transform: uppercase;
+		    
+		    font-weight: 700;
+		}
+
+		&-h1 {
+			font-size: 18px;
+			color: #16a085;
+			text-transform: uppercase;
+			font-weight: 700;
+
+		}
+
+		&-desc {
+			font-size: 12px;
+			line-height: 28px;
+
+
+		}
+
+
+	}
+
+	&__img {
+
+		& img {
+			width: 100%;
+		}
+		
+	}
+}

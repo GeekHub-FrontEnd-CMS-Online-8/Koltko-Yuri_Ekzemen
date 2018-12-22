@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
+    <title>Phototime</title>
+</head>
+<body>
+<header class="header">
+  <div class="container">
+  
+    <div id="menu">
+
+        <button class="top-nav-btn">
+			Menu <i class="fas fa-bars"></i>
+			  </button>
+      <nav>
+      <ul class="menu menu__hover">
+        <li><a href="#">Home</a></li>
+        <li><a href="#photoapp">photoapp</a></li>
+
+        <a href="#"><img src="img/logo.png" alt="logo"></a>
+        <li><a href="#design">design</a></li>
+        <li><a href="#download">download</a></li>
+        
+      </ul>
+      </nav>
+
+      <div class="text__h1">
+      	<h1>your life , a photo</h1>
+      	<p>print your life in a simple photo</p>
+      	<a href="" class="header__button">
+      	get started</a>
+      </div>
+
+      <div class="soc__icon">
+      <a href=""><i class="fab fa-twitter"></i></a>
+      	<a href=""><i class="fab fa-flickr"></i></a>
+      	<a href=""><i class="fab fa-dribbble"></i></a>
+      </div>
+
+    </div>
+    </div>
+
+    </header>
+
+    <div id="photoapp">
+    	<div class="container">
+    	<div class="photoapp">
+    		<div class="photoapp__text">
+    			<p class="photoapp__text-h1">
+    				Rappresent your life with a 
+simple photo
+    			</p>
+    			<div class="photoapp__text-desc">
+    				Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+sed do eiusmod tempor incididunt ut labore et dolore 
+magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi 
+ut aliquip ex ea commodo consequat.
+    			</div>
+
+    			<a href="" class="header__button">
+    				get started
+    			</a>
+
+    			
+    		</div>
+    		<div class="photoapp__img">
+    			<img src="img/phone_img.png" alt="phone">
+    		</div>
+
+    	</div>
+
+    	</div>
+    </div>
+
+    <div id="design">
+    	<div class="container">
+    	<div class="desigen">
+    		<div class="desigen__text">
+    			<p class="photoapp__text-h1">
+    				DESIGN
+    			</p>
+    			<div class="photoapp__text-desc">
+    				Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+sed do eiusmod tempor incididunt ut labore et dolore 
+magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi 
+ut aliquip ex ea commodo consequat.
+    			</div>
+    			
+    			<a href="" class="header__button">
+    				learn more
+    			</a>
+
+    			
+    		</div>
+    		<div class="photoapp__img">
+    			<img src="img/phone_img2.png" alt="phone">
+    		</div>
+
+    	</div>
+
+    	</div>
+    </div>
+
+    <div id="portfolio">
+    	<div class="container">
+    		<div class="portfolio">
+    			<div class="portfolio__text">
+    				<a href="#"><img src="img/logo_photo.png" alt="ogo"></a>
+
+    				<div class="portfolio__text-h1">
+    					our community
+    				</div>
+    				<div class="portfolio__text-desc">
+    					Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    				</div>
+
+    				
+    			</div>
+    			<img src="img/photo1.png" alt="Foto">
+    			<img src="img/photo2.png" alt="Foto">
+    		</div>
+    	</div>
+
+    	
+    </div>
+    
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<script>
+
+$(document).ready(function() {
+ var menuBtn = $('.top-nav-btn');
+    var menu = $('.menu');
+    menuBtn.on('click', function(event){
+        event.preventDefault();
+        menu.toggleClass('menu__activ');
+    });
+
+});
+
+</script>
+</body>
+</html>

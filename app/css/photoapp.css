@@ -1,0 +1,52 @@
+#photoapp {
+  background: #f5f6f7;
+}
+
+.photoapp {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.photoapp__text {
+  width: 435px;
+  text-align: left;
+  margin: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.photoapp__text a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.photoapp__text-h1 {
+  font-size: 18px;
+  color: #16a085;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.photoapp__text-desc {
+  font-size: 12px;
+  line-height: 28px;
+}
+
+.photoapp__img img {
+  width: 100%;
+}

@@ -1,0 +1,18 @@
+@media screen and (min-width: 768px) {
+  .top-nav-btn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .menu li {
+    margin: 0;
+  }
+}
