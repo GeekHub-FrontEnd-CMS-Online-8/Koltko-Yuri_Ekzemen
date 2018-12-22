@@ -154,6 +154,15 @@ body {
 		
 	}
 }
+
+
+.email {
+	background-image: url(../img/email.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 750px;
+    background-position: center;
+}
 @import "desigen";
 @import "photoapp";
 @import "media";

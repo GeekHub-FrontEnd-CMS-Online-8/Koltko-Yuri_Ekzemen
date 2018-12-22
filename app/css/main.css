@@ -162,6 +162,14 @@ body {
   margin: 10px;
 }
 
+.email {
+  background-image: url(../img/email.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 750px;
+  background-position: center;
+}
+
 .desigen {
   display: -webkit-box;
   display: -webkit-flex;
