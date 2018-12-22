@@ -11,8 +11,20 @@
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
+    flex-direction: column;
   }
   .menu li {
     margin: 0;
+  }
+  .desigen {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .foto__portf {
+    height: 100%;
+    width: 100%;
   }
 }

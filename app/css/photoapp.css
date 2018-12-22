@@ -13,7 +13,7 @@
 }
 
 .photoapp__text {
-  width: 435px;
+  max-width: 435px;
   text-align: left;
   margin: auto;
   display: -webkit-box;

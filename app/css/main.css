@@ -140,6 +140,11 @@ body {
 
 .portfolio__text {
   width: 174px;
+  margin: 0 auto;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+              -ms-grid-row-align: center;
+          align-self: center;
 }
 
 .desigen {
@@ -160,7 +165,7 @@ body {
 }
 
 .desigen__text {
-  width: 435px;
+  max-width: 435px;
   text-align: left;
   display: -webkit-box;
   display: -webkit-flex;
@@ -199,7 +204,7 @@ body {
 }
 
 .photoapp__text {
-  width: 435px;
+  max-width: 435px;
   text-align: left;
   margin: auto;
   display: -webkit-box;
@@ -250,8 +255,20 @@ body {
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
+    flex-direction: column;
   }
   .menu li {
     margin: 0;
+  }
+  .desigen {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .foto__portf {
+    height: 100%;
+    width: 100%;
   }
 }

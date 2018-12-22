@@ -15,9 +15,19 @@
     & li {
       margin: 0;
     }
-
+flex-direction: column;
 
   }
+.desigen {
+  flex-direction: column;
+}
 
+.foto {
+
+  &__portf {
+    height: 100%;
+      width: 100%;
+  }
+}
   
 }

@@ -16,7 +16,7 @@
 }
 
 .desigen__text {
-  width: 435px;
+  max-width: 435px;
   text-align: left;
   display: -webkit-box;
   display: -webkit-flex;

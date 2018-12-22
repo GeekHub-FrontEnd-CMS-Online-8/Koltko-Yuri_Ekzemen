@@ -128,9 +128,19 @@ body {
 
 	&__text {
 		width: 174px;
+		margin: 0 auto;
+		align-self: center;
 	}
+
+	
 }
 
+.foto {
+
+	&__portf {
+		
+	}
+}
 @import "desigen";
 @import "photoapp";
 @import "media";
